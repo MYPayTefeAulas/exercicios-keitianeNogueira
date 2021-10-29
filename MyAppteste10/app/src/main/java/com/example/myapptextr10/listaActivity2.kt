@@ -3,7 +3,7 @@ package com.example.myapptextr10
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapptextr10.databinding.ActivityLista2Binding
-import com.example.myapptextr10.databinding.ActivityMainBinding
+
 
 class listaActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityLista2Binding

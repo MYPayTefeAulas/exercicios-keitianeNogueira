@@ -2,7 +2,7 @@ package com.example.myapptextr10
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myapptextr10.databinding.ActivityMainBinding
+
 import com.example.myapptextr10.databinding.ActivityPessoasBinding
 
 class PessoasActivity : AppCompatActivity() {
@@ -18,6 +18,7 @@ class PessoasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityPessoasBinding.inflate(layoutInflater)
+
         binding.txtImprimi.setOnClickListener {
             binding.txtsaida.text= Pessoas()
         }

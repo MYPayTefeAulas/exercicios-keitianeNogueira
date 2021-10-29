@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapptextr10">
 
     <application
@@ -9,20 +10,58 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApptextr10">
-            <activity
-            android:name=".PessoasActivity"
+        <activity
+            android:name=".EditarContatoctivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditarContatoActivity"
+            android:exported="true"
+            android:label="@string/title_activity_editar_contato"
+            android:theme="@style/Theme.MyApptextr10.NoActionBar" />
+        <activity
+            android:name=".TelaInicialAgActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FormularioContatoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AgendaDoisActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FormularioAgenda3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Agenda3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".EditarcontatoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AgendaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TelaInicialActivity"
             android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".greeter.Greeter2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".greeter.Greeter1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".PessoasActivity"
+            android:exported="true" />
         <activity
             android:name=".listaActivity2"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CalculadoraActivity"
             android:exported="true" />
     </application>
 
