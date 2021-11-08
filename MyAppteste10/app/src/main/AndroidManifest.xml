@@ -11,31 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApptextr10">
         <activity
-            android:name=".EditarContatoctivity"
-            android:exported="true" />
-        <activity
-            android:name=".EditarContatoActivity"
-            android:exported="true"
-            android:label="@string/title_activity_editar_contato"
-            android:theme="@style/Theme.MyApptextr10.NoActionBar" />
-        <activity
-            android:name=".TelaInicialAgActivity"
-            android:exported="true" />
-        <activity
             android:name=".FormularioContatoActivity"
             android:exported="true" />
         <activity
-            android:name=".AgendaDoisActivity"
+            android:name=".Agenda2Activity"
             android:exported="true" />
-        <activity
-            android:name=".FormularioAgenda3Activity"
-            android:exported="true" />
-        <activity
-            android:name=".Agenda3Activity"
-            android:exported="true" />
-        <activity
-            android:name=".EditarcontatoActivity"
-            android:exported="true" />
+
         <activity
             android:name=".AgendaActivity"
             android:exported="true" />
